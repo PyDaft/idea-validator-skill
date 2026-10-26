@@ -1,0 +1,23 @@
+{
+  "skill_name": "idea-validator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our sales lead just pinged me: 'Acme Corp will sign a $120k annual deal if we add a Salesforce two-way sync by end of Q1.' We're a B2B project management tool, ~800 customers, mostly mid-market. Should we build this?",
+      "expected_output": "Flags N=1 sales bias, asks or assumes about other customers wanting it, lists alternatives (Zapier, one-way sync, partner), scores, and most likely lands on Validate first with a concrete experiment.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "CEO came back from a conference and wants us to add an AI chatbot to our expense management app. That's all I've got.",
+      "expected_output": "Asks a single batch of clarifying questions (problem, users, evidence, business model) before analysing, or proceeds with clearly labelled assumptions; separates strategic intent from the proposed solution.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to add a dark mode to our fitness tracking mobile app. 40 support tickets mention it in the last 6 months out of ~200k MAU, and it's the #3 most-upvoted item on our feedback board. Eng estimate is 3 weeks for one dev. Run the full analysis.",
+      "expected_output": "Full report with scorecard, RICE with shown inputs, trade-off table, all four mental models, test scenarios and edge cases, and a verdict.",
+      "files": []
+    }
+  ]
+}

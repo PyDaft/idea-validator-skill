@@ -1,0 +1,11 @@
+{
+  "name": "idea-validator-memo",
+  "version": "1.0.0",
+  "description": "Builds the PM memo .docx for the idea-validator Claude skill",
+  "main": "build_memo.js",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.5.1"
+  },
+  "private": true
+}
