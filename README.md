@@ -14,6 +14,24 @@ Paste in an idea from sales, the CEO, another PM or yourself. The skill asks for
 - **Tone:** directive, active voice, honest pushback with a path to yes
 - **PM memo (.docx):** problem statement, affected users, framework scores, risks, alternatives, recommendation, validation plan and next steps. Outfit font in black-grey, 1.5 line spacing, 3 pt before and after each paragraph.
 
+## Example output
+
+Prompt: *"I want to build an enterprise app for finance and customer success teams to drive revenue and retention better."* The skill asked seven intake questions, then delivered:
+
+| | |
+|---|---|
+| **Decision** | NEEDS MORE INFO |
+| **RICE score** | 4.0/10 (classic RICE: 2.2) |
+| **Overall** | 3.5/10. Impact is real, but confidence is 2/10 (a founder hunch) and effort is 8/10 |
+| **Quadrant** | Big bet |
+| **Call** | Don't write code yet. Narrow to one wedge, run 20 interviews and 2-3 paid concierge pilots, decide on a fixed date. |
+
+<p align="center">
+  <img src="examples/example-memo-page1.png" alt="First page of the generated PM memo, showing the NEEDS MORE INFO decision box and bottom line" width="600">
+</p>
+
+📄 [Read the full example memo (PDF)](examples/example-memo-cs-finance-forecast.pdf)
+
 ## Install
 
 ```bash
